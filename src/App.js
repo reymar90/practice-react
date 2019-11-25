@@ -3,6 +3,7 @@ import TodoItem from './TodoItem'
 import './App.css';
 import Contacts from './Contacts'
 import AppJoke from './MyJoke/AppJoke'
+import AppProducts from './product/AppProducts'
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
       <TodoItem/>
       <Contacts/>
       <AppJoke/>
+      <AppProducts/>
       
     </div>
 
