@@ -1,6 +1,7 @@
 import React from 'react';
 import TodoItem from './TodoItem'
 import './App.css';
+import Contacts from './Contacts'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   const hours = date.getHours()
   let timeOfDay
   const weekday = new Array(7);
+  
   const styles = {
   fontSize:20
 }
@@ -33,12 +35,13 @@ function App() {
   
   return (
     <div>
-      {/* <h1 style={styles}>Good {timeOfDay}!</h1>
-      <h2>Happy {myday}</h2> */}
+      <h1 style={styles}>Good {timeOfDay}!</h1>
+      <h2>Happy {myday}</h2>
       <TodoItem/>
       <TodoItem/>
       <TodoItem/>
       <TodoItem/>
+      <Contacts/>
       
     </div>
 
