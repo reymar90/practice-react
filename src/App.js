@@ -2,6 +2,7 @@ import React from 'react';
 import TodoItem from './TodoItem'
 import './App.css';
 import Contacts from './Contacts'
+import JokeData from './MyJoke/JokeData'
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   const hours = date.getHours()
   let timeOfDay
   const weekday = new Array(7);
-  
+
   const styles = {
   fontSize:20
 }
@@ -42,6 +43,7 @@ function App() {
       <TodoItem/>
       <TodoItem/>
       <Contacts/>
+      <JokeData/>
       
     </div>
 
