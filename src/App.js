@@ -1,5 +1,5 @@
 import React from 'react';
-
+import TodoItem from './TodoItem'
 import './App.css';
 
 
@@ -33,8 +33,13 @@ function App() {
   
   return (
     <div>
-      <h1 style={styles}>Good {timeOfDay}!</h1>
-      <h2>Happy {myday}</h2>
+      {/* <h1 style={styles}>Good {timeOfDay}!</h1>
+      <h2>Happy {myday}</h2> */}
+      <TodoItem/>
+      <TodoItem/>
+      <TodoItem/>
+      <TodoItem/>
+      
     </div>
 
   )
