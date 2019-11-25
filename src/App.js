@@ -2,7 +2,7 @@ import React from 'react';
 import TodoItem from './TodoItem'
 import './App.css';
 import Contacts from './Contacts'
-import JokeData from './MyJoke/JokeData'
+import AppJoke from './MyJoke/AppJoke'
 
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
       <TodoItem/>
       <TodoItem/>
       <Contacts/>
-      <JokeData/>
+      <AppJoke/>
       
     </div>
 
