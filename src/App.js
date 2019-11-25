@@ -4,6 +4,7 @@ import './App.css';
 import Contacts from './Contacts'
 import AppJoke from './MyJoke/AppJoke'
 import AppProducts from './product/AppProducts'
+import AppTodo from './Phase3/AppTodo'
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
       <Contacts/>
       <AppJoke/>
       <AppProducts/>
+      <AppTodo/>
       
     </div>
 
